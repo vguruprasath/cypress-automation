@@ -10,7 +10,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Install modules
         run: npm install
-      # Install npm dependencies, cache them correctly
-      # and run all Cypress tests
       - name: Run Cypress tests
         run: npm run cypress:run # Ensure this script is defined in your package.json

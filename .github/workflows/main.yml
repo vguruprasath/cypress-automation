@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install modules
-        run: npm ci
+        run: npm install
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run

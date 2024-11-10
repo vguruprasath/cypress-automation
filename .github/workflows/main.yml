@@ -14,5 +14,3 @@ jobs:
       # and run all Cypress tests
        - name: Run Cypress tests
           run: npm run cypress:run # Ensure this script is defined in your package.json
-          env:
-          CI: true # Required to run Cypress in CI mode
